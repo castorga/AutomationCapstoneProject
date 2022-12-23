@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Main" class="navigator-link">
+              <span class="suite-name border-passed">Main</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Main" class="navigator-link ">
+                    <span>C:\Users\castorga\git\AutomationCapstoneProject\testng_mainTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Main" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Main" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Main" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Main" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Main" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Main" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Main" class="hide-methods passed suite-Main"> (hide)</a> <!-- hide-methods passed suite-Main -->
+                      <a href="#" panel-name="suite-Main" class="show-methods passed suite-Main"> (show)</a> <!-- show-methods passed suite-Main -->
+                    </span>
+                    <div class="method-list-content passed suite-Main">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Main" title="PageTests" class="method navigator-link" hash-for-method="addAndDeleteProductFromCart">addAndDeleteProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Main" title="PageTests" class="method navigator-link" hash-for-method="addMultipleProductsAndCheckPrice">addMultipleProductsAndCheckPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Main" title="PageTests" class="method navigator-link" hash-for-method="verifyHomePageElements">verifyHomePageElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Main -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Main" class="panel Main">
+          <div class="suite-Main-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAndDeleteProductFromCart">
+                  </a> <!-- addAndDeleteProductFromCart -->
+                  <span class="method-name">addAndDeleteProductFromCart</span>
+                  <em>
+(Add and delete product from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleProductsAndCheckPrice">
+                  </a> <!-- addMultipleProductsAndCheckPrice -->
+                  <span class="method-name">addMultipleProductsAndCheckPrice</span>
+                  <em>
+(Add multiple products to card and verify price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageElements">
+                  </a> <!-- verifyHomePageElements -->
+                  <span class="method-name">verifyHomePageElements</span>
+                  <em>
+(Verify Home page elements)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main-class-passed -->
+        </div> <!-- panel Main -->
+        <div panel-name="test-xml-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\castorga\git\AutomationCapstoneProject\testng_mainTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Main&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;/src/test/java/&quot; verbose=&quot;2&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Main&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- /src/test/java/ --&gt;
+&lt;/suite&gt; &lt;!-- Main --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Main</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">/src/test/java/ (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Main</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Main</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addAndDeleteProductFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addMultipleProductsAndCheckPrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomePageElements</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Main</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Main');
+function tableData_Main() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addMultipleProductsAndCheckPrice')
+data.setCell(0, 2, 'PageTests')
+data.setCell(0, 3, 12950);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHomePageElements')
+data.setCell(1, 2, 'PageTests')
+data.setCell(1, 3, 8313);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addAndDeleteProductFromCart')
+data.setCell(2, 2, 'PageTests')
+data.setCell(2, 3, 4933);
+window.suiteTableData['Main']= { tableData: data, tableDiv: 'times-div-Main'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Main">
+              </div> <!-- times-div-Main -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Main</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHomePageElements</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br> • Test case 1: Verify Home page elements</span>
+                <span class="reporter-method-output"><br> • Ensure Home page displayed</span>
+                <span class="reporter-method-output"><br> • Verify category Phones</span>
+                <span class="reporter-method-output"><br> • Verify category Laptops</span>
+                <span class="reporter-method-output"><br> • Verify category Monitors</span>
+                <span class="reporter-method-output"><br> • Check amount of articles displayed by category</span>
+                <span class="reporter-method-output"><br> • Click category: Phones</span>
+                <span class="reporter-method-output"><br> • Wait for page to update</span>
+                <span class="reporter-method-output"><br> • Verify number of Phones</span>
+                <span class="reporter-method-output"><br> • Click category: Laptops</span>
+                <span class="reporter-method-output"><br> • Wait for page to update</span>
+                <span class="reporter-method-output"><br> • Verify number of Laptops</span>
+                <span class="reporter-method-output"><br> • Click category: Monitors</span>
+                <span class="reporter-method-output"><br> • Wait for page to update</span>
+                <span class="reporter-method-output"><br> • Verify number of Monitors</span>
+                <span class="reporter-method-output"><br> • Reload the page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addAndDeleteProductFromCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br> • Test case 2: Add and delete a product from the cart</span>
+                <span class="reporter-method-output"><br> • Ensure Home page displayed</span>
+                <span class="reporter-method-output"><br> • Select a product on the main page</span>
+                <span class="reporter-method-output"><br> • Verify product details are shown</span>
+                <span class="reporter-method-output"><br> • Product name: Samsung galaxy s6</span>
+                <span class="reporter-method-output"><br> • Product description: The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.</span>
+                <span class="reporter-method-output"><br> • Product price: $360 *includes tax</span>
+                <span class="reporter-method-output"><br> • Product image shown: true</span>
+                <span class="reporter-method-output"><br> • Button text: Add to cart</span>
+                <span class="reporter-method-output"><br> • Click the Add to cart button</span>
+                <span class="reporter-method-output"><br> • Wait for and acknowledge alert</span>
+                <span class="reporter-method-output"><br> • Ensure Home page displayed</span>
+                <span class="reporter-method-output"><br> • Go to Cart page</span>
+                <span class="reporter-method-output"><br> • Ensure product is added on cart page</span>
+                <span class="reporter-method-output"><br> • Delete product</span>
+                <span class="reporter-method-output"><br> • Wait for page to reload and verify there are no products in the cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addMultipleProductsAndCheckPrice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br> • Test case 3: Add multiple products and verify cart price</span>
+                <span class="reporter-method-output"><br> • Go to Home page</span>
+                <span class="reporter-method-output"><br> • Select a product on the main page</span>
+                <span class="reporter-method-output"><br> • Click the Add to cart button</span>
+                <span class="reporter-method-output"><br> • Wait for and acknowledge alert</span>
+                <span class="reporter-method-output"><br> • Go to Home page</span>
+                <span class="reporter-method-output"><br> • Select a product on the main page</span>
+                <span class="reporter-method-output"><br> • Click the Add to cart button</span>
+                <span class="reporter-method-output"><br> • Wait for and acknowledge alert</span>
+                <span class="reporter-method-output"><br> • Go to Home page</span>
+                <span class="reporter-method-output"><br> • Select a product on the main page</span>
+                <span class="reporter-method-output"><br> • Click the Add to cart button</span>
+                <span class="reporter-method-output"><br> • Wait for and acknowledge alert</span>
+                <span class="reporter-method-output"><br> • Go to Cart page</span>
+                <span class="reporter-method-output"><br> • Check details for product number 1</span>
+                <span class="reporter-method-output"><br> • Check product name</span>
+                <span class="reporter-method-output"><br> • Check product image</span>
+                <span class="reporter-method-output"><br> • Check product price</span>
+                <span class="reporter-method-output"><br> • Verify product has delete button available</span>
+                <span class="reporter-method-output"><br> • Check details for product number 2</span>
+                <span class="reporter-method-output"><br> • Check product name</span>
+                <span class="reporter-method-output"><br> • Check product image</span>
+                <span class="reporter-method-output"><br> • Check product price</span>
+                <span class="reporter-method-output"><br> • Verify product has delete button available</span>
+                <span class="reporter-method-output"><br> • Check details for product number 3</span>
+                <span class="reporter-method-output"><br> • Check product name</span>
+                <span class="reporter-method-output"><br> • Check product image</span>
+                <span class="reporter-method-output"><br> • Check product price</span>
+                <span class="reporter-method-output"><br> • Verify product has delete button available</span>
+                <span class="reporter-method-output"><br> • Ensure expected total price matches with the accumulated price</span>
+                <span class="reporter-method-output"> Verify expected total price matches with price shown at the right of the page</span>
+                <span class="reporter-method-output"><br> • Verify place order button says 'Place order'</span>
+                <span class="reporter-method-output"><br> • Delete each product</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Main" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">PageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageElements</span>
+                <span class="method-start">271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addAndDeleteProductFromCart</span>
+                <span class="method-start">8588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addMultipleProductsAndCheckPrice</span>
+                <span class="method-start">13522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">26472 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">26484 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

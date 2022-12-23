@@ -1,0 +1,12 @@
+<suite name="Main">
+    <test verbose="2" preserve-order="true" name="/src/test/java/">
+        <groups>
+            <run>
+                <include name="Main"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="PageTests"/>
+        </classes>
+    </test>
+</suite>

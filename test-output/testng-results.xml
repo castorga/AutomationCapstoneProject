@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br> • Test case 1: Verify Home page elements]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Ensure Home page displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify category Phones]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify category Laptops]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify category Monitors]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check amount of articles displayed by category]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click category: Phones]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for page to update]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify number of Phones]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click category: Laptops]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for page to update]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify number of Laptops]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click category: Monitors]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for page to update]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify number of Monitors]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Reload the page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Test case 2: Add and delete a product from the cart]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Ensure Home page displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Select a product on the main page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify product details are shown]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Product name: Samsung galaxy s6]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Product description: The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Product price: $360 *includes tax]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Product image shown: true]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Button text: Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click the Add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for and acknowledge alert]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Ensure Home page displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Go to Cart page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Ensure product is added on cart page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Delete product]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for page to reload and verify there are no products in the cart]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Test case 3: Add multiple products and verify cart price]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Go to Home page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Select a product on the main page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click the Add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for and acknowledge alert]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Go to Home page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Select a product on the main page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click the Add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for and acknowledge alert]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Go to Home page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Select a product on the main page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Click the Add to cart button]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Wait for and acknowledge alert]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Go to Cart page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check details for product number 1]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product name]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product image]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product price]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify product has delete button available]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check details for product number 2]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product name]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product image]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product price]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify product has delete button available]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check details for product number 3]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product name]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product image]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Check product price]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify product has delete button available]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Ensure expected total price matches with the accumulated price]]>
+    </line>
+    <line>
+      <![CDATA[ Verify expected total price matches with price shown at the right of the page]]>
+    </line>
+    <line>
+      <![CDATA[<br> • Verify place order button says 'Place order']]>
+    </line>
+    <line>
+      <![CDATA[<br> • Delete each product]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-23T12:35:19 PST" name="Main" finished-at="2022-12-23T12:35:46 PST" duration-ms="26476">
+    <groups>
+      <group name="Main">
+        <method signature="PageTests.verifyHomePageElements()[pri:1, instance:PageTests@30f4b1a6]" name="verifyHomePageElements" class="PageTests"/>
+        <method signature="PageTests.addAndDeleteProductFromCart()[pri:2, instance:PageTests@30f4b1a6]" name="addAndDeleteProductFromCart" class="PageTests"/>
+        <method signature="PageTests.addMultipleProductsAndCheckPrice()[pri:3, instance:PageTests@30f4b1a6]" name="addMultipleProductsAndCheckPrice" class="PageTests"/>
+      </group> <!-- Main -->
+    </groups>
+    <test started-at="2022-12-23T12:35:19 PST" name="/src/test/java/" finished-at="2022-12-23T12:35:46 PST" duration-ms="26476">
+      <class name="PageTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:PageTests@30f4b1a6]" started-at="2022-12-23T12:35:19 PST" name="beforeTest" finished-at="2022-12-23T12:35:20 PST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyHomePageElements()[pri:1, instance:PageTests@30f4b1a6]" started-at="2022-12-23T12:35:20 PST" name="verifyHomePageElements" description="Verify Home page elements" finished-at="2022-12-23T12:35:28 PST" duration-ms="8313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br> • Test case 1: Verify Home page elements]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Ensure Home page displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify category Phones]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify category Laptops]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify category Monitors]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check amount of articles displayed by category]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click category: Phones]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for page to update]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify number of Phones]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click category: Laptops]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for page to update]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify number of Laptops]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click category: Monitors]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for page to update]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify number of Monitors]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Reload the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageElements -->
+        <test-method signature="addAndDeleteProductFromCart()[pri:2, instance:PageTests@30f4b1a6]" started-at="2022-12-23T12:35:28 PST" name="addAndDeleteProductFromCart" description="Add and delete product from cart" finished-at="2022-12-23T12:35:33 PST" duration-ms="4933" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br> • Test case 2: Add and delete a product from the cart]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Ensure Home page displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Select a product on the main page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify product details are shown]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Product name: Samsung galaxy s6]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Product description: The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Product price: $360 *includes tax]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Product image shown: true]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Button text: Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click the Add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for and acknowledge alert]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Ensure Home page displayed]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Go to Cart page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Ensure product is added on cart page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Delete product]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for page to reload and verify there are no products in the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAndDeleteProductFromCart -->
+        <test-method signature="addMultipleProductsAndCheckPrice()[pri:3, instance:PageTests@30f4b1a6]" started-at="2022-12-23T12:35:33 PST" name="addMultipleProductsAndCheckPrice" description="Add multiple products to card and verify price" finished-at="2022-12-23T12:35:46 PST" duration-ms="12950" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br> • Test case 3: Add multiple products and verify cart price]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Go to Home page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Select a product on the main page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click the Add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for and acknowledge alert]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Go to Home page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Select a product on the main page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click the Add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for and acknowledge alert]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Go to Home page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Select a product on the main page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Click the Add to cart button]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Wait for and acknowledge alert]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Go to Cart page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check details for product number 1]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product name]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product image]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product price]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify product has delete button available]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check details for product number 2]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product name]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product image]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product price]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify product has delete button available]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check details for product number 3]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product name]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product image]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Check product price]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify product has delete button available]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Ensure expected total price matches with the accumulated price]]>
+            </line>
+            <line>
+              <![CDATA[ Verify expected total price matches with price shown at the right of the page]]>
+            </line>
+            <line>
+              <![CDATA[<br> • Verify place order button says 'Place order']]>
+            </line>
+            <line>
+              <![CDATA[<br> • Delete each product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addMultipleProductsAndCheckPrice -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:PageTests@30f4b1a6]" started-at="2022-12-23T12:35:46 PST" name="afterTest" finished-at="2022-12-23T12:35:46 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:PageTests@30f4b1a6]" started-at="2022-12-23T12:35:46 PST" name="afterSuite" finished-at="2022-12-23T12:35:46 PST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- PageTests -->
+    </test> <!-- /src/test/java/ -->
+  </suite> <!-- Main -->
+</testng-results>
